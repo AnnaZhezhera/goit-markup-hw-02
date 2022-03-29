@@ -115,6 +115,7 @@ body {
 }
 .footer.logo {
   color: var(--white-text-color);
+  font-size: 26px;
 }
 .footer-contacts {
   color: var(--footer-text-color);
