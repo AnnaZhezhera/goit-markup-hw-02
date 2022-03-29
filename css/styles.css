@@ -120,6 +120,12 @@ body {
 .footer-contacts {
   color: var(--footer-text-color);
 }
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
 /* Button */
 .button {
   font-weight: 700;
