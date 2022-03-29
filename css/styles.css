@@ -2,6 +2,7 @@ body {
   color: #757575;
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
+  font-size: 16px;
   letter-spacing: 0.03em;
 }
 :root {
@@ -35,19 +36,22 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo span,
 .footer.logo span {
   color: var(--accent-color);
 }
-.list {
+.list li {
   list-style: none;
 }
 .site-nav .link {
   color: var(--hd-text-color);
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -58,9 +62,11 @@ body {
 }
 .auth-nav .link {
   color: var(--main-text-color);
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .auth-nav .link:hover {
   color: var(--accent-color);
@@ -76,6 +82,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 /* section */
 .section-title {
@@ -85,10 +92,6 @@ body {
   line-height: 1.17;
   text-align: center;
 }
-.features-text {
-  font-size: 14px;
-  line-height: 1.71;
-}
 /* features */
 .features .title {
   color: var(--hd-text-color);
@@ -96,6 +99,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.features-list {
+  list-style: none;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 /* About team */
 .team-member {
@@ -117,8 +127,13 @@ body {
   color: var(--white-text-color);
   font-size: 26px;
 }
+.footer p {
+  font-style: normal;
+}
 .footer-contacts {
   color: var(--footer-text-color);
+  font-style: normal;
+  text-decoration: none;
 }
 .footer-address:hover,
 .footer-address:focus,
