@@ -111,9 +111,11 @@ body {
 .team-member {
   color: var(--hd-text-color);
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
 }
 .team span {
+  font-size: 16px;
   line-height: 1.19;
 }
 /* footer */
@@ -144,6 +146,7 @@ body {
 /* Button */
 .button {
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.88;
   padding: 12px 24px;
   display: inline-block;
@@ -175,4 +178,5 @@ body {
 }
 .project span {
   line-height: 1.88;
+  font-size: 16px;
 }
