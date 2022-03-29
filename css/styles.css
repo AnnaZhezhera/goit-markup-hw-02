@@ -4,12 +4,6 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-footer {
-  background-color: var(--dark-bg-color);
-  color: var(--white-text-color);
-  font-size: 14px;
-  line-height: 1.71;
-}
 :root {
   --hd-text-color: #212121;
   --main-text-color: #757575;
@@ -113,6 +107,12 @@ footer {
   line-height: 1.19;
 }
 /* footer */
+.footer {
+  background-color: var(--dark-bg-color);
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
 .footer.logo {
   color: var(--white-text-color);
 }
@@ -127,8 +127,30 @@ footer {
   display: inline-block;
   border-color: transparent;
   border-radius: 4px;
+  cursor: pointer;
 }
 .button.primary {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+}
+/* modifying filter */
+.filter li {
+  list-style: none;
+  display: inline-block;
+}
+.button.btn-portfolio:hover,
+.button.btn-portfolio:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+/* section about projects */
+.project-title {
+  color: var(--hd-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project span {
+  line-height: 1.88;
 }
