@@ -163,6 +163,9 @@ body {
   list-style: none;
   display: inline-block;
 }
+.btn-portfolio {
+  padding: 6px 22px;
+}
 .button.btn-portfolio:hover,
 .button.btn-portfolio:focus {
   color: var(--white-text-color);
